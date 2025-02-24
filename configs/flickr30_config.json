@@ -1,0 +1,45 @@
+{
+    "topk": 300,
+    "n_test": 400,
+    "n_parallel": 500,
+    "n_eigenvectors": 10,
+    "n_components": 8,
+    "spectralnets": [
+        {
+            "n_clusters": 30,
+            "should_use_ae": false,
+            "should_use_siamese": false,
+            "spectral_batch_size": 5162,
+            "spectral_is_local_scale": false,
+            "spectral_n_nbg": 30,
+            "spectral_scale_k": 15,
+            "spectral_epochs": 100,
+            "spectral_lr": 1e-4,
+            "spectral_hiddens": [
+                4096,
+                4096,
+                1024,
+                30
+            ],
+            "spectral_input_dim": 768
+        },
+        {
+            "n_clusters": 30,
+            "should_use_ae": false,
+            "should_use_siamese": false,
+            "spectral_batch_size": 5162,
+            "spectral_is_local_scale": false,
+            "spectral_n_nbg": 30,
+            "spectral_scale_k": 15,
+            "spectral_epochs": 100,
+            "spectral_lr": 1e-4,
+            "spectral_hiddens": [
+                4096,
+                4096,
+                1024,
+                30
+            ],
+            "spectral_input_dim": 2048
+        }
+    ]
+}
