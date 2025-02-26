@@ -1,5 +1,9 @@
 # SUE
 This is the official PyTorch implementation of SUE from the paper "The Hidden Power of Unpaired Data for Multimodal Learning".
+<p align="center">
+    <img src="https://github.com/shaham-lab/SUE/blob/main/SUE.png" width="600">
+</p>
+
 
 ## Installation
 To run the project, clone this repo and then create a conda environment via:
