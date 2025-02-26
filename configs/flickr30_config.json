@@ -2,7 +2,6 @@
     "topk": 300,
     "n_test": 400,
     "n_parallel": 500,
-    "n_eigenvectors": 10,
     "n_components": 8,
     "spectralnets": [
         {
